@@ -55,6 +55,16 @@ and set your defensive-programming priorities accordingly.
 
 - Is the code free of empty catch blocks? (Or if an empty catch block truly is appropriate, is it documented?)
 
+### Security Issues
+
+- Does the code that checks for bad input data check for attempted buffer overflows, SQL injection, html injection, integer overflows, and other malicious inputs?
+
+- Are all error-return codes checked?
+
+- Are all exceptions caught?
+
+- Do error messages avoid providing information that would help an attacker break into the system?
+
 
 Footnote
 --------
