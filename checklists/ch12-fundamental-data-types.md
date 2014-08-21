@@ -54,6 +54,44 @@ Checklist: Fundamental Data
 
 - Does the program use additional boolean variables to simplify conditional tests?
 
+### Enumerated Types
+
+- Does the program use enumerated types instead of named constants for their improved readability, reliability, and modifiability?
+
+- Does the program use enumerated types instead of boolean variables when a variable’s use cannot be completely captured with TRUE and FALSE?
+
+- Do tests using enumerated types test for invalid values?
+
+- Is the first entry in an enumerated type reserved for "invalid"?
+
+### Named Constants
+
+- Does the program use named constants for data declarations and loop limits rather than magic numbers?
+
+- Have named constants been used consistently -- not named constants in some places, literals in others?
+
+### Arrays
+
+- Are all array indexes within the bounds of the array?
+
+- Are array references free of off-by-one errors?
+
+- Are all subscripts on multidimensional arrays in the correct order?
+
+- In nested loops, is the correct variable used as the array subscript, avoiding loop-index cross talk?
+
+### Creating Types
+
+- Does the program use a different type for each kind of data that might change?
+
+- Are type names oriented toward the real-world entities the types represent rather than toward programminglanguage types?
+
+- Are the type names descriptive enough to help document data declarations?
+
+- Have you avoided redefining predefined types?
+
+- Have you considered creating a new class rather than simply redefining a type?
+
 
 Footnote
 --------
