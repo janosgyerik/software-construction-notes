@@ -1,3 +1,5 @@
+ch31-layout-and-style.md
+
 Chapter 31: Layout And Style
 ============================
 
@@ -53,6 +55,16 @@ Checklist: Layout
 - Are the arguments to each routine formatted so that each argument is easy to read, modify, and comment?
 
 - Are blank lines used to separate parts of a routine?
+
+### Classes, Files and Programs
+
+- Is there a one-to-one relationship between classes and files for most classes and files?
+
+- If a file does contain multiple classes, are all the routines in each class grouped together and is the class clearly identified?
+
+- Are routines within a file clearly separated with blank lines?
+
+- In lieu of a stronger organizing principle, are all routines in alphabetical sequence?
 
 
 Footnote
