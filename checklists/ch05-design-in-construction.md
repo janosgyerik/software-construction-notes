@@ -65,4 +65,3 @@ C. McConnell. Permission is hereby given to copy, adapt, and
 distribute this material as long as this notice is included on all
 such materials and the materials are not sold, licensed, or otherwise
 distributed for commercial gain.
-otherwise distributed for commercial gain.
