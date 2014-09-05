@@ -212,8 +212,8 @@ Checklist: Upstream Prerequisites
 
 Footnote
 --------
-This material is copied and/or adapted from the Code Complete
-2 Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven
+This material is copied and/or adapted from the Code Complete 2
+Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven
 C. McConnell. Permission is hereby given to copy, adapt, and
 distribute this material as long as this notice is included on all
 such materials and the materials are not sold, licensed, or otherwise
