@@ -3,6 +3,7 @@ Chapter 24: Refactoring
 
 Reasons to Refactor
 -------------------
+
 - Code is duplicated
 
 - A routine is too long
@@ -21,17 +22,18 @@ Reasons to Refactor
 
 - Inheritance hierarchies have to be modified in parallel
 
-- Related data items that are used together are not organized into classes
+- Related data items that are used together are not organized into
+  classes
 
 - A routine uses more features of another class than of its own class
 
 - A primitive data type is overloaded
 
-- A class doesn’t do very much
+- A class doesn't do very much
 
 - A chain of routines passes tramp data
 
-- A middle man object isn’t doing anything
+- A middle man object isn't doing anything
 
 - One class is overly intimate with another
 
@@ -39,13 +41,14 @@ Reasons to Refactor
 
 - Data members are public
 
-- A subclass uses only a small percentage of its parents’ routines
+- A subclass uses only a small percentage of its parents' routines
 
 - Comments are used to explain difficult code
 
 - Global variables are used
 
-- A routine uses setup code before a routine call or takedown code after a routine call
+- A routine uses setup code before a routine call or takedown code
+  after a routine call
 
 - A program contains code that seems like it might be needed someday
 
@@ -86,13 +89,16 @@ Summary of Refactorings
 
 - Move a complex boolean expression into a well-named boolean function
 
-- Consolidate fragments that are duplicated within different parts of a conditional
+- Consolidate fragments that are duplicated within different parts of
+  a conditional
 
 - Use break or return instead of a loop control variable
 
-- Return as soon as you know the answer instead of assigning a return value within nested if-then-else statements
+- Return as soon as you know the answer instead of assigning a return
+  value within nested if-then-else statements
 
-- Replace conditionals with polymorphism (especially repeated case statements)
+- Replace conditionals with polymorphism (especially repeated case
+  statements)
 
 - Create and use null objects instead of testing for null values
 
@@ -100,7 +106,7 @@ Summary of Refactorings
 
 - Extract a routine
 
-- Move a routine’s code inline
+- Move a routine's code inline
 
 - Convert a long routine to a class
 
@@ -164,15 +170,18 @@ Summary of Refactorings
 
 - Encapsulate unused routines
 
-- Collapse a superclass and subclass if their implementations are very similar
+- Collapse a superclass and subclass if their implementations are very
+  similar
 
 ### System Level Refactorings
 
-- Duplicate data you can’t control
+- Duplicate data you can't control
 
-- Change unidirectional class association to bidirectional class association
+- Change unidirectional class association to bidirectional class
+  association
 
-- Change bidirectional class association to unidirectional class association
+- Change bidirectional class association to unidirectional class
+  association
 
 - Provide a factory routine rather than a simple constructor
 
@@ -189,21 +198,32 @@ Checklist: Refactoring Safely
 
 - Are you doing refactorings one at a time?
 
-- Have you made a list of steps you intend to take during your refactoring?
+- Have you made a list of steps you intend to take during your
+  refactoring?
 
-- Do you have a parking lot so that you can remember ideas that occur to you mid-refactoring?
+- Do you have a parking lot so that you can remember ideas that occur
+  to you mid-refactoring?
 
 - Have you retested after each refactoring?
 
-- Have changes been reviewed if they are complicated or if they affect mission-critical code?
+- Have changes been reviewed if they are complicated or if they affect
+  mission-critical code?
 
-- Have you considered the riskiness of the specific refactoring, and adjusted your approach accordingly?
+- Have you considered the riskiness of the specific refactoring, and
+  adjusted your approach accordingly?
 
-- Does the change enhance the program’s internal quality rather than degrading it?
+- Does the change enhance the program's internal quality rather than
+  degrading it?
 
-- Have you avoided using refactoring as a cover for code and fix or as an excuse for not rewriting bad code?
+- Have you avoided using refactoring as a cover for code and fix or as
+  an excuse for not rewriting bad code?
 
 
 Footnote
 --------
-This material is copied and/or adapted from the Code Complete 2 Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven C. McConnell. Permission is hereby given to copy, adapt, and distribute this material as long as this notice is included on all such materials and the materials are not sold, licensed, or otherwise distributed for commercial gain.
+This material is copied and/or adapted from the Code Complete 2
+Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven
+C. McConnell. Permission is hereby given to copy, adapt, and
+distribute this material as long as this notice is included on all
+such materials and the materials are not sold, licensed, or otherwise
+distributed for commercial gain.

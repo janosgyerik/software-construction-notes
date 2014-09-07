@@ -44,11 +44,11 @@ Checklist: Debugging Reminders
 
 ### Techniques for Syntax Errors
 
-- Don’t trust line numbers in compiler messages
+- Don't trust line numbers in compiler messages
 
-- Don’t trust compiler messages
+- Don't trust compiler messages
 
-- Don’t trust the compilers second message
+- Don't trust the compilers second message
 
 - Divide and conquer
 
@@ -78,9 +78,11 @@ Checklist: Debugging Reminders
 
 ### General Approach to Debugging
 
-- Do you use debugging as an opportunity to learn more about your program, mistakes, code quality, and problem-solving approach?
+- Do you use debugging as an opportunity to learn more about your
+  program, mistakes, code quality, and problem-solving approach?
 
-- Do you avoid the trial-and-error, superstitious approach to debugging?
+- Do you avoid the trial-and-error, superstitious approach to
+  debugging?
 
 - Do you assume that errors are your fault?
 
@@ -88,7 +90,8 @@ Checklist: Debugging Reminders
 
 - Do you use the scientific method to find defects?
 
-- Rather than using the same approach every time, do you use several different techniques to find defects?
+- Rather than using the same approach every time, do you use several
+  different techniques to find defects?
 
 - Do you verify that the fix is correct?
 
@@ -97,4 +100,9 @@ Checklist: Debugging Reminders
 
 Footnote
 --------
-This material is copied and/or adapted from the Code Complete 2 Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven C. McConnell. Permission is hereby given to copy, adapt, and distribute this material as long as this notice is included on all such materials and the materials are not sold, licensed, or otherwise distributed for commercial gain.
+This material is copied and/or adapted from the Code Complete 2
+Website at cc2e.com. This material is Copyright (c) 1993-2004 Steven
+C. McConnell. Permission is hereby given to copy, adapt, and
+distribute this material as long as this notice is included on all
+such materials and the materials are not sold, licensed, or otherwise
+distributed for commercial gain.
