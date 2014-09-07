@@ -1,6 +1,8 @@
-Chapter 6: Working Classes ==========================
+Chapter 6: Working Classes
+==========================
 
-Checklist: Class Quality ------------------------
+Checklist: Class Quality
+------------------------
 
 ### Abstract Data Types
 
